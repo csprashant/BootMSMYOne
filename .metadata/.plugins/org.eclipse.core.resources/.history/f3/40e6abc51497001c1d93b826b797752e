@@ -1,0 +1,21 @@
+package com.nt.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyBusControler {
+	
+	@GetMapping("test")
+	public String testmathod() {
+		return " login to normal page";
+	}
+	
+	@GetMapping("after")
+	public String afterLogin() {
+		return " You have success full loginedin to mybus.com";
+	}
+	
+	
+
+}

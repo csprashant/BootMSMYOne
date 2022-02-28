@@ -1,0 +1,20 @@
+package com.nt.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.nt.model.Employee;
+import com.nt.service.EmpService;
+
+@RestController
+public class EmpRestController {
+	@Autowired EmpService service;
+	
+	@PostMapping("save")
+	public String saveRecord() {
+		Employee emp = new Employee("102","Shruti",78954.2,"Developer");
+		return service.saveEmp(emp);
+	}
+
+}

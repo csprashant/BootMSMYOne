@@ -1,0 +1,5 @@
+server.port = 4040
+
+spring.security.oauth2.client.registration.facebook.client-id = 981132032514834
+spring.security.oauth2.client.registration.facebook.client.secret = 3f6fcbd2011b067eea9d7053355c57ac
+spring.security.oauth2.client.registration.facebook.scope = email, public_profile

@@ -1,0 +1,14 @@
+package com.nt.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "emp")
+public class Employee {
+	private String id;
+	private String name;
+	private Double salary;
+	private String designation;
+	
+}

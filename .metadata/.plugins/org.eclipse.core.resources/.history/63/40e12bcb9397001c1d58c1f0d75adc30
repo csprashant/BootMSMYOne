@@ -1,0 +1,29 @@
+package com.nt.service;
+
+import javax.persistence.EntityManager;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.nt.model.Employee;
+import com.nt.repo.EmpRepo;
+
+@Service
+public class EmpService {
+	
+	@Autowired EmpRepo repo;
+	@Autowired EntityManager manager;
+	
+	public String saveEmp(Employee emp) {
+		repo.save(emp);
+		return "Recoard inserted";
+	}
+	
+	public String getId() {
+		Session session = manager.unwrap(Session.class);
+		
+	    	return "";
+			
+	
+
+}

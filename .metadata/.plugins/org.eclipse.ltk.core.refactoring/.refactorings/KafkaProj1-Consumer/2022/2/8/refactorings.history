@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;KafkaProj1-Consumer&apos;&#x0D;&#x0A;- Original project: &apos;KafkaProj1-Consumer&apos;&#x0D;&#x0A;- Original element: &apos;KafkaProj1-Consumer/src/main/java/nit.KafkaProj1_Consumer&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;nit.KafkaProj1_Consumer" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;nit" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1644764599854" subPackages="false" version="1.0"/>
+</session>
